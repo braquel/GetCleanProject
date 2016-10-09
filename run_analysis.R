@@ -135,4 +135,4 @@
       
       write.csv(GetTidyData, "GetTidyData.csv", row.names= FALSE) 
       
-      ####If you plan to print the document, remove the row name argument for better reference
+      read.csv("GetTidyData.csv") ####To test and read the data set
