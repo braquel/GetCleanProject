@@ -4,13 +4,18 @@ Getting and Cleaning Data Week 4 Project
 
 This final course project  was created to meet the course requirement of Getting  and Cleaning course. This project is the culmination of  the four-week long course that  hopefully armed students the knowledge in getting and cleaning data set for various data projects processed through R.  
 
-The project utilized various R commands in subsetting,  merging,  and reshaping  data sets. The project also required renaming variable names with more descriptive forms for more reader-friendly tidy data sets. The final output of the project is the GetTidyData.txt which hopefully  exhibits characteristics that can be described as 'tidy data set'.
+The repo contains the script file run_analysis.R to show the various commands utilized in R to run the data set transformations to ultimately generate a final output deemed as a tidy data set. The script contains instructions and recommendations in tidying up multiple and often complex data sets. The project utilized various R commands in subsetting,  merging,  and reshaping  data sets. 
 
-Along with the README.md & CodeBook.md,  the repo contains the script file run_analysis.R to show the various commands utilized in R to run the data set transformations to ultimately generate a final output deemed as a tidy data set. The script contains instructions and recommendations in tidying up multiple and often complex data sets.
- 
-run_analysis.R
-CodeBook.md
+The final output of the project is the GetTidyData.txt which hopefully exhibits characteristics that can be described as 'tidy data set'. The script contains instructions of how to read the final output that is reader-friendly.
+
+Refer to the CodeBook.md also found in the repo locate what certain characters and truncated terms indicate. The project also required renaming variable names with more descriptive forms for more reader-friendly tidy data sets.
+
 README.md
+
+run_analysis.R
+
+CodeBook.md
+
 GetTidyData.txt
 
 --------------------------------------------------------------------------------------
