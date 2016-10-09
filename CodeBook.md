@@ -2,6 +2,7 @@ Code Book : Getting and Cleaning Data Week 4 Project
 
 Data sets used in this project came from the UC Irvine study on  "Human Activity Recognition Using Smartphones". The study revolves around measuring acceleration  and velocity of test participants while doing  "activities of daily living (ADL)". In line with developing wearable technology, the study used a smartphone with a built in sensors to measure & transmit data while attached to the test participants.  The received data from the accelerometer and gyroscope of Samsung S II was further subjected to filters to arrive to the final measurements collated in the data sets. The study focused on the 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. For further information on the study, visit the following links.
 ---------------------------------------------
+
 The project used data set and files extracted from the study's zipped data set. 
 Source Link:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Zip File Link:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -13,8 +14,9 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 -----------------------------------------
+Variables
 
-A.)Subject:  Study Participants
+A.) Subject:  Study Participants
 
 	Number of volunteers: 30
 	
@@ -29,7 +31,8 @@ A.)Subject:  Study Participants
 	Test group: "subject_test.txt", "x_test.txt",  "y_test.txt"
 
 
-B.)   Activities of Daily Living (ADL): 
+B.) Actvity: Activities of Daily Living (ADL)
+
 	1) walking
 	2) walking upstairs
 	3) walking downstairs
@@ -37,10 +40,10 @@ B.)   Activities of Daily Living (ADL):
 	5) standing
 	6) laying
 
-File(s):  "activity labels_labels.txt"
+File(s):  "activity_labels.txt"
 
 
-· C.) Features- Measurements
+C.) Features: Measurements
 
 Below are the following elements of the measurements data pertinent to the project. Refer to these characters when prompted to provide more descriptive names to the features columns. 
 	
