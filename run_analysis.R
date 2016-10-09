@@ -133,6 +133,10 @@
       
       #### Step 4: Create a file containing the independent data set 
       
-      write.csv(GetTidyData, "GetTidyData.csv", row.names= FALSE) 
+      write.table(GetTidyData, "GetTidyData.txt", row.names= FALSE)
       
-      read.csv("GetTidyData.csv") ####To test and read the data set
+      ####Test the final output by running it under the read.table but makesure to add "header= TRUE" for reader-friendly format
+      
+      TidyData<- read.table("GetTidyData.txt", header= TRUE)
+      
+      head(TidyData)
